@@ -1,0 +1,17 @@
+/* 头部区域设计 */
+.title1{
+    font-weight:"bold";
+    font-size: 15px;
+    text-align: right;
+}
+.title2{
+    font-size: 15px;
+}
+/* 搜索区设计 */
+.node1{
+    display:none;
+}
+#logo{
+    margin-left:auto;margin-right:auto;
+    
+}
