@@ -70,6 +70,61 @@
       /* #miaodongbaike{
             margin: 500px;
       } */
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      .xialacaidan{
+          width: 100%;
+          height: 50px;
+          background:#449DF5;
+          box-shadow: 0 -2px 2px #449DF5;
+          margin-top: 20px;
+
+      }
+      .xialacaidan ul{
+          list-style: none;
+      }
+      .xialacaidan ul li{
+          float: left;
+          text-align: center;
+          width: 100px;
+          height: 40px;
+          background: #449DF5;
+          font-size: 14px;
+          margin-right: 10px;
+          margin-left: 150px;
+          
+      }
+      .xialacaidan ul li :hover{
+          color: #fff;
+          background:#449DF5;
+      }
+      .xialacaidan ul li a{
+           text-decoration: none;
+           color: #fff;
+           display: block;
+           text-align: center;
+           line-height: 50px;
+           font-weight: bold;
+      }
+      .xialacaidan ul li ul li{
+          display: none;
+          width: 220px;
+          height: 50px;
+          float:right;
+          background: #225e9d;
+          font-size: 15px;
+      }
+      .xialacaidan ul li:hover ul li{
+          display: block;
+          border-top: 1px solid rgba(72,219,251,0.5);
+      }
+      .img:hover{ 
+          filter: alpha(opacity: 60);
+          -moz-opacity:0.6;
+          opacity: 0.6;
+      }
    </style>
 </head>
 
@@ -95,7 +150,43 @@
                
             </div>
         <!-- 页面导航 -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="xialacaidan" style="position:relative;z-index:1;">
+                <ul>
+                    <li><a href="#">首页</a>
+                        <ul>
+                            <li><a href="#">历史上的今天</a></li>
+                            <li><a href="#">百科冷知识</a></li>
+                            <li><a href="#">百科视频</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">分类</a>
+                        <ul>
+                            <li><a href="#">艺术</a></li>
+                            <li><a href="#">科学</a></li>
+                            <li><a href="#">文化</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">秒懂百科</a>
+                    <ul>
+                        <li><a href="#">秒懂五千年</a></li>
+                        <li><a href="#">秒懂大世界</a></li>
+                        <li><a href="#">秒懂全世界</a></li>
+                    </ul> </li>
+                    <li><a href="#">特色百科</a>
+                    <ul>
+                        <li><a href="#">多肉百科</a></li>
+                        <li><a href="#">恐龙百科</a></li>
+                        <li><a href="#">非遗百科</a></li>
+                    </ul></li>
+                    <li><a href="#">权威合作</a>
+                    <ul>
+                        <li><a href="#">合作模式</a></li>
+                        <li><a href="#">常见问题</a></li>
+                    </ul></li>
+                </ul>
+        </div>
+        <br />
+        <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <div class="yemian">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <nav>
@@ -109,32 +200,33 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a style="color: aliceblue;font-size: 20px;text-align: center;font-family: 宋体;"href="https://baike.baidu.com/cooperation#joint">权威合作</a>
             </nav>
-        </div>
+        </div> -->
     </header>
     <!-- 中部区域 -->
     <div>
             <!-- 视频 -->
             <div class="video">
                 <p style="text-align: center;">
-                        <img style="width: 200px;height: 100px;"   src="C:\Users\小超人_\Desktop\website1\HTML用到的图片\秒懂百科2.png">
+                        <img style="width: 200px;height: 100px;"   src="https://s1.ax1x.com/2020/05/11/YJr95q.png">
                         <video controls="controls" src="./BLACKPINK Lisa在推特上引发热潮的翻跳舞蹈 芭比身材跳舞_超清.mp4"
-                        style="width:500px;">Lisa个人solo舞蹈></video> 
-                        <img margin-bottom:40px;   style="width: 200px;height: 100px;"   src="C:\Users\小超人_\Desktop\website1\HTML用到的图片\秒懂百科.png">
+                        style="width:500px;position:relative;z-index:0;">Lisa个人solo舞蹈></video> 
+                        <img margin-bottom:40px; style="width:200px;height=100px;" src="https://s1.ax1x.com/2020/05/11/YJBgXQ.png">
                 </p>
                     </div>
+                    <br />
         <!-- 个人简介 -->
         <div id="jieshao">
             <!-- 文字 -->
                 <div class="jianjie">
-                    <h2 style="text-align:left; margin-right: 60px;">LISA</h2>
-                    <div id="xiao">1997年3月27日|泰国|泰国</div>
+                    <h2 style="text-align:left; margin-right: 60px;">LISA</h2><br />
+                    <div id="xiao">1997年3月27日|泰国|泰国</div><br />
                     <div id="lisa2">
                     <p >
                         LISA（泰文原名：ลลิสา มโนบาล/英文原名：Lalisa Manoban），1997年3月27日出生于泰国，泰国韩语流行乐女歌手，女子演唱组合BLACKPINK成员。
                     2013年11月，出演太阳《RINGA LINGA》的MV。2015年3月，拍摄休闲服饰品牌的秋冬季概念视频。2016年，随BLACKPINK发行首张单曲专辑《S-
                     QUARE ONE》并以BLACKPINK成员的身份正式出道，专辑在印尼、马来西亚、土耳其等十四个国家的iTunes专辑榜夺得冠军。2019年，被评选为TC 
                     Candler亚太区最美面孔。2020年3月12日，作为舞蹈导师参加的综艺节目《青春有你第二季》在爱奇艺上线。
-                    </p>
+                    </p><br /><br />
                     <p>
                         <h3>代表作品</h3>
                     </p>
@@ -143,18 +235,18 @@
                 </div>
                 </div>
             <!-- 图片 -->
-            <div id="lisa1">
+            <div id="lisa1" class="img">
                     <img style="wigth:100px;height: 300px; float:right;"
                     src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2616838008,338313593&fm=26&gp=0.jpg">
-                    
             </div>
-        </div>
+        </div><br />
         <!-- 目录  要用锚点链接 -->
         <div  id="zhongbuquyu">
             <div class="muluweizhi">
                 <div >
-                    <div style="margin-left: 50px;"><h2>目录</h2></div>
-                    <div style="margin-left: 50px;">
+                    <br />
+                    <div style="margin-left: 52px;"><h2>目录</h2></div>
+                    <div style="margin-left: 52px;">
                         <p>
                             <a style="font-family: 宋体;font-size: 20px;color: #126ec3;line-height: 50px;"href="#chapter1"><早年经历></a>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -201,7 +293,7 @@
                     11日，所属经纪公司发布了她的舞蹈视频，总点击率超过600万。<br />
                     </p>
                 </div>
-                <div>
+                <div class="img">
                     <p style="text-align: center;">
                         <img style="width: 570px;height: 287px;"
                         src="https://s1.ax1x.com/2020/05/10/Y8yDu4.jpg">
@@ -224,7 +316,7 @@
                         Lipa》中。2019年4月5日，随组合发行迷你专辑《KILL THIS LOVE》。10月15日，《青春有你第二季》官宣新导师LISA。此次担任《青春有你
                         第二季》导师也是其中国综艺的首秀。 2020年3月12日，作为舞蹈导师参加的综艺节目《青春有你第二季》在爱奇艺上线。</p>
                 </div>
-                <div>
+                <div class="img">
                     <p style="text-align: center;">
                         <img style="width: 570px;height: 380px;"
                         src="https://s1.ax1x.com/2020/05/10/Y86ExU.jpg">
@@ -246,7 +338,7 @@
                     力，也散发出异国风情和神秘感十足的魅力。（mydaily 评）
                     </p>
                 </div>
-                <div>
+                <div class="img">
                     <p style="text-align: center;">
                         <img style="width: 570px;height: 380px;"
                         src="https://s1.ax1x.com/2020/05/10/Y8sjB9.jpg">
@@ -255,7 +347,7 @@
     
             </div>
             <!-- 个人图集 -->
-            <div>
+            <div class="img">
                 <h2 id="chapter4" style="margin:20px 300px 20px 60px;">个人图集<span style="color:rgb(215, 231, 235);">&nbsp&nbsp&nbsp--------------------------------------------</span></h2><br />
                        <div>
                            <p style="margin:20px 30px 20px 60px;">
@@ -283,6 +375,7 @@
             </p>
         </div>
     </footer>
+    <br />
 </body>
 
 </html>
